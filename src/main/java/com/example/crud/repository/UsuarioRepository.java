@@ -1,5 +1,7 @@
 package com.example.crud.repository;
 
-public class UsuarioRepository {
-    
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.crud.model.Usuario;
+
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 }
